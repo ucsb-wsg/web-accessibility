@@ -1,21 +1,21 @@
 # UCSB Web Accessibility Guidelines
 
-> “Building an accessible Website is a necessity as the Web becomes an everyday tool for
+> "Building an accessible Website is a necessity as the Web becomes an everyday tool for
 communication, work, and play. Electronic "curb cuts"—accessible Web design
 elements—need to be addressed in all Website construction. It now appears that our
 nation has reached a significant crossroad where our policies, technology, and purchasing
 choices will determine whether or not every person will participate in the digital
 economy. The impact is systemic and reaches all sectors of our economy. Rather than
 promoting a digital divide, we must address accessible Web design so that everyone can
-participate, regardless of age, disability, or the limitations of the available technology.”
+participate, regardless of age, disability, or the limitations of the available technology."
 – Cynthia Waddell
 
 ## Introduction
 
-As the “Information Age” has progressed, the capability of sharing data across vast
+As the "Information Age" has progressed, the capability of sharing data across vast
 distances at incredible speeds has become possible. Increasingly, however, the disabled
-population is being left behind as part of a group which has been termed “The Digital
-Divide”: those who do not have equal access to digital communication either by choice,
+population is being left behind as part of a group which has been termed "The Digital
+Divide": those who do not have equal access to digital communication either by choice,
 by financial constraints, or by other constraints such as disability. While a barrier to
 access such as a building without an elevator, an elevator without a Braille panel, an
 auditory alarm system without a visual component or stairs without an accompanying
@@ -27,8 +27,8 @@ electronic data.
 
 ## Reasoning Behind Accessibility
 
-Accessibility is a Civil Rights issue and inaccessible websites violate the “effective
-communications” requirement of the Americans with Disabilities Act (ADA) as well as
+Accessibility is a Civil Rights issue and inaccessible websites violate the "effective
+communications" requirement of the Americans with Disabilities Act (ADA) as well as
 provisions of Section 504 and 508 of the Rehabilitation Act (you can read more about
 these pieces of legislation by following the links in the appendix).
 
@@ -96,13 +96,13 @@ Perhaps one of the most important standards is the concept of a text equivalent 
 displayed on every web page. What this means is that when information is
 communicated graphically, there must be alternative textual information available which
 communicates the same information as the graphic. This is most commonly accomplished
-by using an “alt txt” or “longdesc” tab within the web page. Not only does this help
+by using an "alt txt" or "longdesc" tab within the web page. Not only does this help
 individuals using screen reading software to understand the information presented on
 your page, but it also makes your site more accessible to web crawlers which index
 content on the web and make it easier to find via search engines. If a graphic does not
 contain any information, tag it using a null tag (empty quotes) in order to avoid
-distracting persons using a screen reader. An example of this would be: &lt;IMG
-SRC="bluebar.gif" ALT=""&rt;
+distracting persons using a screen reader. An example of this would be: &lt;img
+src="bluebar.gif" alt=""&gt;
 
 ##### Provide Multimedia Alternatives
 
@@ -116,7 +116,7 @@ Appendix VII.
 
 Information conveyed by color alone is inaccessible to individuals who are color blind as
 well as people who are using a screen reader to convey web information. For instance,
-instructions such as “click on the green button to continue” should not be used unless the
+instructions such as "click on the green button to continue" should not be used unless the
 green button is identified in a format accessible to persons with colorblindness or other
 disabilities which do not allow them to distinguish colors. A better method would be to
 use an emphasized elment &lt;em&gt;&lt;/em&gt; or strong element &lt;strong&gt;&lt;/strong&gt; or mark the
@@ -148,7 +148,7 @@ sense when linearized.
 
 #### 5. Ensure that your web page can be viewed by people with color blindness.
 
-For more information on testing your page for “color accessibility: go to
+For more information on testing your page for "color accessibility: go to
 http://colorfilter.wickline.org/ or http://www.vischeck.com (both pages have a filter
 though which you can run your web page to test for color discernability). Some other
 simple techniques for testing color combinations are to print your web page on a black
@@ -194,8 +194,8 @@ and forms.
 When using tables, title each frame to facilitate navigation and describe the frame and
 their relationship to the other frames in the table if it is not readily apparent.
 
-Avoid ambiguous navigation tags such as: “Click here”, “More info”, or “Skip intro”.
-Wherever possible, use a “title” attribute to further clarify the destination of a link.
+Avoid ambiguous navigation tags such as: "Click here", "More info", or "Skip intro".
+Wherever possible, use a "title" attribute to further clarify the destination of a link.
 
 It is also helpful to allow users to skip redundant navigation links (i.e. identical links that
 appear at the top of every subpage). While a visual user can simply skip over these links,
@@ -208,8 +208,8 @@ Then make the first link on the page a link to this anchor. This page can be whi
 white if needed to preserve graphical design issues:
 &lt;a href="#content"&gt;Skip to Page Content&lt;/a&gt;
 
-Any links which use the same text should go to the same page (i.e. “Link to Our Home
-Page” or “Link to Email Us”).
+Any links which use the same text should go to the same page (i.e. "Link to Our Home
+Page" or "Link to Email Us").
 
 Provide a means to skip over ASCII art and calendars.
 
@@ -242,7 +242,7 @@ Use consistent page layout and clear, simple language.
 
 #### 13. Clarify natural language usage
 
-Identify the natural language of content using the “lang” attribute in HTML or the
+Identify the natural language of content using the "lang" attribute in HTML or the
 "xml:lang" tag in XML in order to facilitate correct pronunciation by screen readers.
 This includes specifications for language which are read
 
@@ -274,7 +274,7 @@ of the style sheets.
 
 ### Guideline: User override of styles
 
-Allow user specified guidelines (i.e. “important!” style) to override any author-generated
+Allow user specified guidelines (i.e. "important!" style) to override any author-generated
 style sheets. This is important for overriding small font sizes as well as undesired color
 combinations.
 
@@ -370,10 +370,10 @@ designing and maintaining a website:
 ### WebAIM (Web Accessibility In Mind)
 
 WebAIM is a non-profit organization at Utah State University organized within their
-Center for Persons with Disabilities. Their goal is to “…expand the potential of the Web
+Center for Persons with Disabilities. Their goal is to "…expand the potential of the Web
 for people with disabilities by providing the knowledge, technical skills, tools,
 organizational leadership strategies, and vision that empower organizations to make
-their own content accessible to people with disabilities.” Their website is
+their own content accessible to people with disabilities." Their website is
 http://webaim.org/
 
 ## Appendix I: Links to Relevant Case Law
@@ -385,7 +385,7 @@ These laws are in turn enforced by several agencies:
 
 (Text: http://www.nationalrehab.org/website/history/act.html )
 
-“Section 504 states that "no qualified individual with a disability in the United States
+"Section 504 states that "no qualified individual with a disability in the United States
 shall be excluded from, denied the benefits of, or be subjected to discrimination under"
 any program or activity that either receives Federal financial assistance or is conducted
 by any Executive agency or the United States Postal Service.
@@ -398,14 +398,14 @@ accessibility; effective communication with people who have hearing or vision
 disabilities; and accessible new construction and alterations. Each agency is responsible
 for enforcing its own regulations. Section 504 may also be enforced through private
 lawsuits. It is not necessary to file a complaint with a Federal agency or to receive a
-"right-to-sue" letter before going to court.” (Source:
+"right-to-sue" letter before going to court." (Source:
 http://www.usdoj.gov/crt/ada/cguide.htm#anchor65610 )
 
 ### Section 508 of The Rehabilitation Act of 1973:
 
 (Text: http://www.section508.gov/index.cfm?FuseAction=Content&ID=14 )
 
-“In 1998, Congress amended the Rehabilitation Act to require Federal agencies to make
+"In 1998, Congress amended the Rehabilitation Act to require Federal agencies to make
 their electronic and information technology accessible to people with disabilities.
 Inaccessible technology interferes with an individual's ability to obtain and use
 information quickly and easily. Section 508 was enacted to eliminate barriers in
@@ -416,27 +416,27 @@ and information technology. Under Section 508 (29 U.S.C. ‘ 794d), agencies mus
 disabled employees and members of the public access to information that is comparable
 to the access available to others. It is recommended that you review the laws and
 regulations listed below to further your understanding about Section 508 and how you
-can support implementation.” For more information, see http://www.section508.gov
+can support implementation." For more information, see http://www.section508.gov
 
 ### Section 255 of The Telecommunications Act of 1996:
 
 (Text: http://www.fcc.gov/cgb/dro/telecom_language.html )
 
-“The Federal Communications Commission (FCC) has rules requiring
+"The Federal Communications Commission (FCC) has rules requiring
 telecommunications manufacturers and service providers to make their products and
 services accessible to people with disabilities, if readily achievable. These rules
 implement Section 255 of the Communications Act. Where it is not readily achievable to
 provide access, Section 255 requires manufacturers and providers to make their devices
 and services compatible with peripheral devices and specialized customer premises
 equipment that are commonly used by people with disabilities, if such compatibility is
-readily achievable.” For more information, see
+readily achievable." For more information, see
 http://www.fcc.gov/cgb/dro/section255.html
 
 ### The Americans with Disabilities Act of 1990:
 
 (Text: http://www.usdoj.gov/crt/ada/pubs/ada.txt )
 
-“The ADA prohibits discrimination on the basis of disability in employment, State and
+"The ADA prohibits discrimination on the basis of disability in employment, State and
 local government, public accommodations, commercial facilities, transportation, and
 telecommunications. It also applies to the United States Congress.
 
@@ -445,7 +445,7 @@ association with an individual with a disability. An individual with a disabilit
 by the ADA as a person who has a physical or mental impairment that substantially limits
 one or more major life activities, a person who has a history or record of such an
 impairment, or a person who is perceived by others as having such an impairment. The
-ADA does not specifically name all of the impairments that are covered.” (Source:
+ADA does not specifically name all of the impairments that are covered." (Source:
 http://www.usdoj.gov/crt/ada/cguide.htm#anchor62335 ).
 
 ## Appendix II: The Agencies Who Enforce Access
@@ -584,8 +584,8 @@ Adobe Acrobat, it can be done (see Section 9 of the previously mentioned guide).
 descriptions of the form fields.
 * Make sure your document has a logical reading structure.
 * Configure your security settings so that they do not interfere with screen readers
-(i.e. make sure you’ve enabled the option: “Enable Text Access for Screen Reader
-Devices For the Visually Impaired”).
+(i.e. make sure you’ve enabled the option: "Enable Text Access for Screen Reader
+Devices For the Visually Impaired").
 
 Conclusion:
 
